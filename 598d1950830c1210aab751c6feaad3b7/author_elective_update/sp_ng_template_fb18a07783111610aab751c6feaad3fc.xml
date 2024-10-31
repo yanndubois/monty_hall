@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="DELETE">
+        <id>veryableFieldTemplate</id>
+        <sp_widget display_value="Veryables">953628b383111610aab751c6feaad375</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:41:17</sys_created_on>
+        <sys_id>fb18a07783111610aab751c6feaad3fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>veryableFieldTemplate</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sp_ng_template_fb18a07783111610aab751c6feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 23:23:02</sys_updated_on>
+        <template><![CDATA[<md-input-container class="md-block" ng-switch="field.type" ng-show="{{field._visible}}" ng-init="field.showHint = false">
+  
+    <label>
+      {{field.label}}
+    </label>
+    
+    <input ng-switch-when="string"
+           id="{{field.name}}"
+           ng-model="field.value"
+           md-maxlength="{{field.max_length}}"
+           ng-required="{{field._mandatory}}"
+           ng-disabled="{{field._readonly}}">
+    
+    <textarea ng-switch-when="textarea"
+              id="{{field.name}}"
+              ng-model="field.value"
+              md-maxlength="{{field.max_length}}"
+              ng-required="{{field._mandatory}}"
+              ng-disabled="{{field._readonly}}"
+              rows="4"
+              md-select-on-focus></textarea>
+    
+    <sn-record-picker ng-switch-when="reference"
+                      id="{{field.name}}"
+                      field="field"
+                      table="field.ed.reference"
+                      default-query="field.defaultQuery"
+                      value-field="'sys_id'"
+                      display-field="field.ed.searchField"
+                      search-fields="field.ed.searchField"
+                      ng-required="{{field._mandatory}}"
+                      page-size="20"></sn-record-picker>
+    
+    <md-select ng-switch-when="choice"
+               id="{{field.name}}"
+               ng-required="{{field._mandatory}}"
+               ng-disabled="{{field._readonly}}"
+               ng-model="field.value">
+      <md-option ng-repeat="choice in field.choices" ng-value="choice.value">
+        {{choice.label}}
+      </md-option>
+    </md-select>
+    
+    <md-icon alt="${Show Hint}" style="display:inline-block;">
+      <i class="fa fa-question-circle" style="display:inline-block;" ng-click="field.showHint = !field.showHint"></i>
+    </md-icon>
+    
+    <div class="hint" ng-if="field.help_text && field.showHint">
+      {{field.help_text}}
+    </div>
+    
+</md-input-container>]]></template>
+    </sp_ng_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sp_ng_template_fb18a07783111610aab751c6feaad3fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_ng_template"&gt;&lt;sp_ng_template action="INSERT_OR_UPDATE"&gt;&lt;id&gt;veryableFieldTemplate&lt;/id&gt;&lt;sp_widget display_value="Veryables"&gt;953628b383111610aab751c6feaad375&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_ng_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-23 22:41:17&lt;/sys_created_on&gt;&lt;sys_id&gt;fb18a07783111610aab751c6feaad3fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;veryableFieldTemplate&lt;/sys_name&gt;&lt;sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0"&gt;598d1950830c1210aab751c6feaad3b7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Monty Hall Puzzle"&gt;598d1950830c1210aab751c6feaad3b7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_ng_template_fb18a07783111610aab751c6feaad3fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-23 23:23:02&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;md-input-container class="md-block" ng-switch="field.type" ng-show="{{field._visible}}" ng-init="field.showHint = false"&gt;
+  
+    &lt;label&gt;
+      {{field.label}}
+    &lt;/label&gt;
+    
+    &lt;input ng-switch-when="string"
+           id="{{field.name}}"
+           ng-model="field.value"
+           md-maxlength="{{field.max_length}}"
+           ng-required="{{field._mandatory}}"
+           ng-disabled="{{field._readonly}}"&gt;
+    
+    &lt;textarea ng-switch-when="textarea"
+              id="{{field.name}}"
+              ng-model="field.value"
+              md-maxlength="{{field.max_length}}"
+              ng-required="{{field._mandatory}}"
+              ng-disabled="{{field._readonly}}"
+              rows="4"
+              md-select-on-focus&gt;&lt;/textarea&gt;
+    
+    &lt;sn-record-picker ng-switch-when="reference"
+                      id="{{field.name}}"
+                      field="field"
+                      table="field.ed.reference"
+                      default-query="field.defaultQuery"
+                      value-field="'sys_id'"
+                      display-field="field.ed.searchField"
+                      search-fields="field.ed.searchField"
+                      ng-required="{{field._mandatory}}"
+                      page-size="20"&gt;&lt;/sn-record-picker&gt;
+    
+    &lt;md-select ng-switch-when="choice"
+               id="{{field.name}}"
+               ng-required="{{field._mandatory}}"
+               ng-disabled="{{field._readonly}}"
+               ng-model="field.value"&gt;
+      &lt;md-option ng-repeat="choice in field.choices" ng-value="choice.value"&gt;
+        {{choice.label}}
+      &lt;/md-option&gt;
+    &lt;/md-select&gt;
+    
+    &lt;md-icon alt="${Show Hint}" style="display:inline-block;"&gt;
+      &lt;i class="fa fa-question-circle" style="display:inline-block;" ng-click="field.showHint = !field.showHint"&gt;&lt;/i&gt;
+    &lt;/md-icon&gt;
+    
+    &lt;div class="hint" ng-if="field.help_text &amp;&amp; field.showHint"&gt;
+      {{field.help_text}}
+    &lt;/div&gt;
+    
+&lt;/md-input-container&gt;]]&gt;&lt;/template&gt;&lt;/sp_ng_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>976765750</payload_hash>
+        <record_name>veryableFieldTemplate</record_name>
+        <reverted_from/>
+        <source>bb45f0f783511610aab751c6feaad3db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 00:01:21</sys_created_on>
+        <sys_id>a81df4b383911610aab751c6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bbd3f0210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 00:01:21</sys_updated_on>
+        <type>Angular ng-template</type>
+        <update_guid>201df4b3bd911610d604bf1e22d24112</update_guid>
+        <update_guid_history>201df4b3bd911610d604bf1e22d24112:976765750,3439f07fe751161054ee712bdd04f37b:-71130454,cf44b4bf5b11161086211df5f88f69ef:285831062,d3ba2837aa111610156c87b37b6a0697:487910463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="veryableFieldTemplate">4b5df4b383911610aab751c6feaad34b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 00:02:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_ng_template">sp_ng_template</sys_db_object>
+        <sys_id>59548615edba48888f68d76f49144964</sys_id>
+        <sys_metadata>fb18a07783111610aab751c6feaad3fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veryableFieldTemplate</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>sp_ng_template_fb18a07783111610aab751c6feaad3fc</sys_update_name>
+        <sys_update_version display_value="sp_ng_template_fb18a07783111610aab751c6feaad3fc">a81df4b383911610aab751c6feaad312</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 00:02:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

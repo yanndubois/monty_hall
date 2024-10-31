@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ab6121d44e0c1210356b3b9486672b23" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_295105_monty_h_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 02:23:00</sys_created_on>
+            <sys_id>a36121d45a0c1210ca9a95b35a99bf23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="ef6121d4030c12104d40cfe88e706522">ab6121d44e0c1210356b3b9486672b23</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 02:23:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 02:23:00</sys_created_on>
+            <sys_id>e76121d4ec0c12103d506a68be111523</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="ef6121d4030c12104d40cfe88e706522">ab6121d44e0c1210356b3b9486672b23</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 02:23:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 02:23:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab6121d44e0c1210356b3b9486672b23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+            <sys_update_name>sys_ui_section_ab6121d44e0c1210356b3b9486672b23</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 02:23:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_295105_monty_h_0)" name="custom_portal_approval_x_295105_monty_h_0">ef6121d4030c12104d40cfe88e706522</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

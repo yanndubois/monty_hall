@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">276121d4310c12104fa430b8c48cc028</declarative_action_assignment>
+        <predicate display_value="My Tasks">af6121d46d0c121023062ace7f119802</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:23:02</sys_created_on>
+        <sys_id>af61ed94000c12109c1c716ce916a9f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_af61ed94000c12109c1c716ce916a9f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:23:02</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

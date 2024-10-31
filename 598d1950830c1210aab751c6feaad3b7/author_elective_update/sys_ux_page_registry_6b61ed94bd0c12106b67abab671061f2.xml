@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>2f61ed94ea0c1210ce4ee240a6e560f2</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>monty-hall-puzzle</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:23:03</sys_created_on>
+        <sys_id>6b61ed94bd0c12106b67abab671061f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monty Hall Puzzle</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sys_ux_page_registry_6b61ed94bd0c12106b67abab671061f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:23:03</sys_updated_on>
+        <title>Monty Hall Puzzle</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sys_ux_page_registry_6b61ed94bd0c12106b67abab671061f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>2f61ed94ea0c1210ce4ee240a6e560f2</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app><path>monty-hall-puzzle</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 02:23:03</sys_created_on><sys_id>6b61ed94bd0c12106b67abab671061f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Monty Hall Puzzle</sys_name><sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package><sys_policy/><sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope><sys_update_name>sys_ux_page_registry_6b61ed94bd0c12106b67abab671061f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 02:23:03</sys_updated_on><title>Monty Hall Puzzle</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>620527152</payload_hash>
+        <record_name>Monty Hall Puzzle</record_name>
+        <reverted_from/>
+        <source>df4fb70283330210aab751c6feaad399</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-08-05 14:06:25</sys_created_on>
+        <sys_id>8f1a6590834c1210aab751c6feaad340</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19122dcdae80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>4f1a65904a4c12104bd616d9dd77f240</update_guid>
+        <update_guid_history>4f1a65904a4c12104bd616d9dd77f240:620527152</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 03:00:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>38142033c4634f36b871b731b5943024</sys_id>
+        <sys_metadata>6b61ed94bd0c12106b67abab671061f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monty Hall Puzzle</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_6b61ed94bd0c12106b67abab671061f2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_6b61ed94bd0c12106b67abab671061f2">8f1a6590834c1210aab751c6feaad340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 03:00:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

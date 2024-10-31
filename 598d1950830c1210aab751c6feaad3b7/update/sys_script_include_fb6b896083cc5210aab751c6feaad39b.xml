@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_295105_monty_h_0.montyHallSI</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>true</client_callable>
+        <description>Main program for Monty Hall puzzle</description>
+        <mobile_callable>false</mobile_callable>
+        <name>montyHallSI</name>
+        <script><![CDATA[var montyHallSI = Class.create();
+
+montyHallSI.prototype = {
+    initialize: function() {
+        this.DOORS = ['first_door', 'second_door', 'third_door'];
+		this.msg = '';
+		this.won = false;
+		this.correct_door;
+    },
+
+	runProgram: function(producer) {
+		producer.correct_door = this.getRandomDoor();
+		this.correct_door = producer.correct_door;
+
+		this.won = montyHallUtil.checkIfCarWasSelected(producer);
+		this.msg = this.createWonOrLostMsg(producer);
+		return this.msg;
+	},
+
+    getRandomDoor: function() {
+        var randomDoorNumber = Math.floor(Math.random() * 3) + 1;
+        return this.DOORS[randomDoorNumber];
+    },
+
+	openAGoatDoor: function(producer) {
+		var doors = THIS.DOORS;
+		doors.splice(this.correct_door, 1);
+		doors.splice(producer.first_choice, 1);
+		return doors[0];
+	},
+
+    checkIfCarWasSelected: function(producer) {
+        var won = false;
+
+        if (producer.switched_choice == 'Yes' ) {
+            if (producer.second_choice == producer.correct_door) {
+                won = true;
+            } else {
+                won = false;
+            }
+        } else {
+            if (producer.first_choice == producer.correct_door) {
+                won = true;
+            } else {
+                won = false;
+            }
+        }
+        return won;
+    },
+
+    createWonOrLostMsg: function(producer) {
+		var message = '';
+        var wonMsg = 'You won ';
+        var lostMsg = 'You lost ';
+        var onSwitchedChoiceMsg = ' on switched choice!';
+        var onFirstChoiceMsg = ' on first choice!';
+
+        switch (current.won) {
+            case true:
+                if (producer.switched_choice == 'Yes') {
+                    message = wonMsg + onSwitchedChoiceMsg;
+                } else {
+                    message = wonMsg + onFirstChoiceMsg;
+                }
+                break;
+            case false:
+                if (producer.switched_choice == 'Yes') {
+                    message = lostMsg + onSwitchedChoiceMsg;
+                } else {
+                    message = lostMsg + onFirstChoiceMsg;
+                }
+        }
+		return message;
+    },
+
+    type: 'montyHallSI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 02:05:04</sys_created_on>
+        <sys_id>fb6b896083cc5210aab751c6feaad39b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>montyHallSI</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sys_script_include_fb6b896083cc5210aab751c6feaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 15:50:22</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>fb6b896083cc5210aab751c6feaad39b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 02:05:04</sys_created_on>
+        <sys_id>fee6e2e083849210aab751c6feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 02:05:04</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

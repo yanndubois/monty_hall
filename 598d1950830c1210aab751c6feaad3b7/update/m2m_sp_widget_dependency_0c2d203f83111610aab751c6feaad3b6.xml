@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="angularMaterial">ec0dacfb83111610aab751c6feaad351</sp_dependency>
+        <sp_widget display_value="Veryables">953628b383111610aab751c6feaad375</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:51:42</sys_created_on>
+        <sys_id>0c2d203f83111610aab751c6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angularMaterial.Monty Test</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_0c2d203f83111610aab751c6feaad3b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:51:42</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

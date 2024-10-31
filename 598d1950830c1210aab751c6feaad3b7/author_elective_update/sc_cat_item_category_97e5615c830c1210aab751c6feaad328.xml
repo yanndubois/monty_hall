@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Monty Hall game">d7c429d8830c1210aab751c6feaad3cd</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:42:37</sys_created_on>
+        <sys_id>97e5615c830c1210aab751c6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Monty Hall game</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sc_cat_item_category_97e5615c830c1210aab751c6feaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:42:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sc_cat_item_category_97e5615c830c1210aab751c6feaad328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Monty Hall game">d7c429d8830c1210aab751c6feaad3cd</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 02:42:37</sys_created_on><sys_id>97e5615c830c1210aab751c6feaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Monty Hall game</sys_name><sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package><sys_policy/><sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope><sys_update_name>sc_cat_item_category_97e5615c830c1210aab751c6feaad328</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 02:42:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1882050297</payload_hash>
+        <record_name>Can We Help You?.Monty Hall game</record_name>
+        <reverted_from/>
+        <source>198d1950830c1210aab751c6feaad3bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:42:37</sys_created_on>
+        <sys_id>dbe5615c830c1210aab751c6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191447759100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:42:37</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>1fe5615c600c1210eac3f04bd6703f2b</update_guid>
+        <update_guid_history>1fe5615c600c1210eac3f04bd6703f2b:-1882050297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Monty Hall game">fea6619c830c1210aab751c6feaad34a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:45:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0505844e1a5049a88319dc083faa5d84</sys_id>
+        <sys_metadata>97e5615c830c1210aab751c6feaad328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Monty Hall game</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_97e5615c830c1210aab751c6feaad328</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_97e5615c830c1210aab751c6feaad328">dbe5615c830c1210aab751c6feaad32c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:45:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

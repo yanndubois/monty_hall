@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="veryableField">4247203783111610aab751c6feaad3d7</sp_angular_provider>
+        <sp_widget display_value="Monty Test">953628b383111610aab751c6feaad375</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:27:42</sys_created_on>
+        <sys_id>20a72cf383111610aab751c6feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veryableField.Monty Test</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_20a72cf383111610aab751c6feaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:27:42</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_20a72cf383111610aab751c6feaad371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="veryableField">4247203783111610aab751c6feaad3d7</sp_angular_provider><sp_widget display_value="Monty Test">953628b383111610aab751c6feaad375</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 22:27:42</sys_created_on><sys_id>20a72cf383111610aab751c6feaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>veryableField.Monty Test</sys_name><sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package><sys_policy/><sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_20a72cf383111610aab751c6feaad371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 22:27:42</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>2057466637</payload_hash>
+        <record_name>veryableField.Monty Test</record_name>
+        <reverted_from/>
+        <source>198d1950830c1210aab751c6feaad3bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:27:42</sys_created_on>
+        <sys_id>a8a72cf383111610aab751c6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bb7e317c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:27:42</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>aca72cf32e111610d330b64a249a2f72</update_guid>
+        <update_guid_history>aca72cf32e111610d330b64a249a2f72:2057466637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="veryableField.Monty Test">37be78f383911610aab751c6feaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 00:08:42</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>30e44283c1be4aa08c0ecd6f8184e400</sys_id>
+        <sys_metadata>20a72cf383111610aab751c6feaad371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veryableField.Monty Test</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_20a72cf383111610aab751c6feaad371</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_20a72cf383111610aab751c6feaad371">a8a72cf383111610aab751c6feaad373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 00:08:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

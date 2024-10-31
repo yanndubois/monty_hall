@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:22162194830c1210aab751c6feaad373=Yes^IO:1b35e11c830c1210aab751c6feaad364INfirst_door,second_door,third_door^EQ</catalog_conditions>
+        <catalog_item display_value="Monty Hall game">d7c429d8830c1210aab751c6feaad3cd</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setDisplay('second_choice', false);
+	g_form.clearValue('second_choice');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var firstChoice = g_form.getValue('first_choice');
+	var form = typeof g_sc_form != "undefined" ? g_sc_form : g_form; 
+	form.removeOption('second_choice', firstChoice);
+
+	g_form.setDisplay('second_choice', true);
+
+	// var montyHallUtil = new x_295105_monty_h_0.montyHallSI();
+	// var msg = montyHallUtil.openAGoatDoor(current);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Display second choice question</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 03:16:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a12b2514834c1210aab751c6feaad3fd</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Display second choice question</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>catalog_ui_policy_a12b2514834c1210aab751c6feaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 15:59:40</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a12b2514834c1210aab751c6feaad3fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 03:16:18</sys_created_on>
+        <sys_id>2cada1d4834c1210aab751c6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 03:16:18</sys_updated_on>
+        <table>catalog_ui_policy</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

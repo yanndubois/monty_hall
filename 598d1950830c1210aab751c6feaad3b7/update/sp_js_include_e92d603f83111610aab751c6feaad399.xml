@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:52:15</sys_created_on>
+        <sys_id>e92d603f83111610aab751c6feaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_e92d603f83111610aab751c6feaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:52:15</sys_updated_on>
+        <url>https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js</url>
+    </sp_js_include>
+</record_update>

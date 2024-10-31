@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
+        <name>angularMaterialCss</name>
+        <rtl_css_file_url/>
+        <source>url</source>
+        <sp_css display_value="angular-material1.1.12.min.css">055d643f83111610aab751c6feaad3bd</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:53:30</sys_created_on>
+        <sys_id>d94d243f83111610aab751c6feaad367</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>angularMaterialCss</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sp_css_include_d94d243f83111610aab751c6feaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 00:24:11</sys_updated_on>
+        <url>https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.2.5/angular-material.min.css</url>
+    </sp_css_include>
+</record_update>

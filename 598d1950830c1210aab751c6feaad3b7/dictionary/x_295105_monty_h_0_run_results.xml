@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ecef5d14830c1210aab751c6feaad3ee" label="Run Results" max_length="40" name="x_295105_monty_h_0_run_results" type="collection">
+        <element choice="3" label="Correct door" max_length="40" name="correct_door" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="First door" sequence="0" value="first_door"/>
+                <element inactive_on_update="false" label="Second door" sequence="1" value="second_door"/>
+                <element inactive_on_update="false" label="Third door" sequence="2" value="third_door"/>
+            </choice>
+        </element>
+        <element choice="3" label="First choice" max_length="40" name="first_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="First door" sequence="0" value="first_door"/>
+                <element inactive_on_update="false" label="Second door" sequence="1" value="second_door"/>
+                <element inactive_on_update="false" label="Third door" sequence="2" value="third_door"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element choice="3" label="Second choice" max_length="40" name="second_choice" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="First door" sequence="0" value="first_door"/>
+                <element inactive_on_update="false" label="Second door" sequence="1" value="second_door"/>
+                <element inactive_on_update="false" label="Third door" sequence="2" value="third_door"/>
+            </choice>
+        </element>
+        <element label="Switched choice" max_length="40" name="switched_choice" type="boolean"/>
+        <element label="Won" max_length="40" name="won" type="boolean"/>
+        <index name="index">
+            <element name="player"/>
+        </index>
+    </element>
+</database>

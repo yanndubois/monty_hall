@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_295105_monty_h_0_run_results" section_id="e467616683c55610aab751c6feaad30b" sys_domain="global" table="x_295105_monty_h_0_run_results" version="3" view="portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_choice</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 19:39:46</sys_created_on>
+            <sys_id>78c7696683c55610aab751c6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_295105_monty_h_0_run_results" display_value="x_295105_monty_h_0_run_results" name="x_295105_monty_h_0_run_results" sys_domain="global" view="cdc005738d020210d0ad51af41866377">e467616683c55610aab751c6feaad30b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 19:39:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>switched_choice</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 19:39:46</sys_created_on>
+            <sys_id>b8c7a96683c55610aab751c6feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_295105_monty_h_0_run_results" display_value="x_295105_monty_h_0_run_results" name="x_295105_monty_h_0_run_results" sys_domain="global" view="cdc005738d020210d0ad51af41866377">e467616683c55610aab751c6feaad30b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 19:39:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>second_choice</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 19:39:46</sys_created_on>
+            <sys_id>b0c7a96683c55610aab751c6feaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_295105_monty_h_0_run_results" display_value="x_295105_monty_h_0_run_results" name="x_295105_monty_h_0_run_results" sys_domain="global" view="cdc005738d020210d0ad51af41866377">e467616683c55610aab751c6feaad30b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 19:39:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>correct_door</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 19:39:46</sys_created_on>
+            <sys_id>b8c7a96683c55610aab751c6feaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_295105_monty_h_0_run_results" display_value="x_295105_monty_h_0_run_results" name="x_295105_monty_h_0_run_results" sys_domain="global" view="cdc005738d020210d0ad51af41866377">e467616683c55610aab751c6feaad30b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 19:39:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_295105_monty_h_0_run_results</caption>
+            <header>false</header>
+            <name>x_295105_monty_h_0_run_results</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 19:38:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e467616683c55610aab751c6feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_295105_monty_h_0_run_results</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+            <sys_update_name>sys_ui_section_e467616683c55610aab751c6feaad30b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 19:38:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal" name="portal">cdc005738d020210d0ad51af41866377</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

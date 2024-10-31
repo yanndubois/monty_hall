@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+  var g_form = $scope.page.g_form;
+
+  c.fieldTypesToReplace = ['textarea', 'string', 'reference', 'choice']
+
+  c.fields = (function() {
+	var fields = [];
+	var fieldNames = g_form.getFieldNames();
+	for(var f in fieldNames) {
+		var field = g_form.getField(fieldNames[f]);
+		console.log(field);
+		if(c.fieldTypesToReplace.indexOf(field.type) > -1) {
+			fields.push(field);
+		}
+	}
+	return fields;
+  })();
+  
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>veryables</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  for(var f in scope.c.fields) {
+	angular.element('div#' + scope.c.fields[f].name).addClass('ng-hide');
+  }
+}]]></link>
+        <name>Veryables</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:25:18</sys_created_on>
+        <sys_id>953628b383111610aab751c6feaad375</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Veryables</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sp_widget_953628b383111610aab751c6feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 23:25:36</sys_updated_on>
+        <template><![CDATA[<md-content layout-padding>
+  <form name="userForm">
+    <veryable-field ng-repeat="field in c.fields" field="field"></veryable-field>
+  </form>
+</md-content>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>953628b383111610aab751c6feaad375</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:25:17</sys_created_on>
+        <sys_id>851768b383111610aab751c6feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:25:17</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

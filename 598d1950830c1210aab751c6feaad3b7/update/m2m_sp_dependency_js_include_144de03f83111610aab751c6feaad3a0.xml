@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="angularMaterial">ec0dacfb83111610aab751c6feaad351</sp_dependency>
+        <sp_js_include display_value="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js">e92d603f83111610aab751c6feaad399</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:52:16</sys_created_on>
+        <sys_id>144de03f83111610aab751c6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angularMaterial.https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_144de03f83111610aab751c6feaad3a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:52:16</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

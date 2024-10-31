@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability display_value="Public">6b6121d4c30c1210207e7571f4f64929</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 02:23:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f6121d42a0c12104233325081ae5129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>m2m_app_config_theme_2f6121d42a0c12104233325081ae5129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 02:23:00</sys_updated_on>
+        <theme display_value="Light Theme">a36121d4cf0c12102670af35bb92472a</theme>
+        <ux_app_configuration display_value="">2f61ed94ea0c1210ce4ee240a6e560f2</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>m2m_app_config_theme_2f6121d42a0c12104233325081ae5129</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability display_value="Public">6b6121d4c30c1210207e7571f4f64929</applicability><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 02:23:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2f6121d42a0c12104233325081ae5129</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package><sys_policy/><sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope><sys_update_name>m2m_app_config_theme_2f6121d42a0c12104233325081ae5129</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 02:23:00</sys_updated_on><theme display_value="Light Theme">a36121d4cf0c12102670af35bb92472a</theme><ux_app_configuration display_value="">2f61ed94ea0c1210ce4ee240a6e560f2</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-1479746822</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>df4fb70283330210aab751c6feaad399</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-08-05 14:06:25</sys_created_on>
+        <sys_id>171a2d90834c1210aab751c6feaad3b2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19122dcdae80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>d31a2d90894c121056e6dfdcce7703b2</update_guid>
+        <update_guid_history>d31a2d90894c121056e6dfdcce7703b2:-1479746822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">db1a2d90834c1210aab751c6feaad3b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 03:00:56</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>2cb4e36a7b704d1e8e24cb8679154651</sys_id>
+        <sys_metadata>2f6121d42a0c12104233325081ae5129</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_2f6121d42a0c12104233325081ae5129</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_2f6121d42a0c12104233325081ae5129">171a2d90834c1210aab751c6feaad3b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 03:00:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

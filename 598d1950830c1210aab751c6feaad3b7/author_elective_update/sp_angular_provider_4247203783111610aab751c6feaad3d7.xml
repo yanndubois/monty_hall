@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="DELETE">
+        <name>veryableField</name>
+        <script><![CDATA[function veryableField() {
+	return {
+		restrict: 'E',
+		scope: {
+			field: "="
+		},
+		replace: true,
+		templateUrl: 'veryableFieldTemplate',
+		controller: function($scope) {
+
+		}
+	};
+}]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:27:42</sys_created_on>
+        <sys_id>4247203783111610aab751c6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veryableField</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_update_name>sp_angular_provider_4247203783111610aab751c6feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:27:42</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+    <sys_es_latest_script action="DELETE">
+        <id>4247203783111610aab751c6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:27:41</sys_created_on>
+        <sys_id>58a720f383111610aab751c6feaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:27:41</sys_updated_on>
+        <table>sp_angular_provider</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sp_angular_provider_4247203783111610aab751c6feaad3d7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_angular_provider"&gt;&lt;sp_angular_provider action="INSERT_OR_UPDATE"&gt;&lt;name&gt;veryableField&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function veryableField() {
+	return {
+		restrict: 'E',
+		scope: {
+			field: "="
+		},
+		replace: true,
+		templateUrl: 'veryableFieldTemplate',
+		controller: function($scope) {
+
+		}
+	};
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sp_angular_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-23 22:27:42&lt;/sys_created_on&gt;&lt;sys_id&gt;4247203783111610aab751c6feaad3d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;veryableField&lt;/sys_name&gt;&lt;sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0"&gt;598d1950830c1210aab751c6feaad3b7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Monty Hall Puzzle"&gt;598d1950830c1210aab751c6feaad3b7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_angular_provider_4247203783111610aab751c6feaad3d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-23 22:27:42&lt;/sys_updated_on&gt;&lt;type&gt;directive&lt;/type&gt;&lt;/sp_angular_provider&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4247203783111610aab751c6feaad3d7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-23 22:27:41&lt;/sys_created_on&gt;&lt;sys_id&gt;58a720f383111610aab751c6feaad3c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-23 22:27:41&lt;/sys_updated_on&gt;&lt;table&gt;sp_angular_provider&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1391776606</payload_hash>
+        <record_name>veryableField</record_name>
+        <reverted_from/>
+        <source>198d1950830c1210aab751c6feaad3bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 22:27:42</sys_created_on>
+        <sys_id>68a72cf383111610aab751c6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bb7e31500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 22:27:42</sys_updated_on>
+        <type>Widget Angular Provider</type>
+        <update_guid>6ca72cf387111610e2d910b43f189d6f</update_guid>
+        <update_guid_history>6ca72cf387111610e2d910b43f189d6f:1391776606</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="veryableField">3fbe78f383911610aab751c6feaad3e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 00:08:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_angular_provider">sp_angular_provider</sys_db_object>
+        <sys_id>768a072ad703421d8ef8c9c1014f2ef9</sys_id>
+        <sys_metadata>4247203783111610aab751c6feaad3d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veryableField</sys_name>
+        <sys_package display_value="Monty Hall Puzzle" source="x_295105_monty_h_0">598d1950830c1210aab751c6feaad3b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Monty Hall Puzzle">598d1950830c1210aab751c6feaad3b7</sys_scope>
+        <sys_scope_delete display_value="">75842e0d4dfc49f089d74451c0633cc4</sys_scope_delete>
+        <sys_update_name>sp_angular_provider_4247203783111610aab751c6feaad3d7</sys_update_name>
+        <sys_update_version display_value="sp_angular_provider_4247203783111610aab751c6feaad3d7">68a72cf383111610aab751c6feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 00:08:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
